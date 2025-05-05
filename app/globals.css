@@ -991,12 +991,6 @@ a.light:hover {
   width: 100%;
   margin: 0 auto;
 }
-.mentor-wrap ul {
-  display: flex;
-  flex-direction: row;
-  padding-top: 5rem;
-  margin: 0 2rem;
-}
 
 .mentor-wrap ul:last-child {
   padding-bottom: 5rem;
