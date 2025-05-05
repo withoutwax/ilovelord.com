@@ -185,9 +185,9 @@ export default function About() {
                     Hallelujah! We welcome you to the Agapao website in the name of the Lord.<br />
 
                     Agapao Church was created in 2012 starting with the employee Wednesday service. <br />
-                    We experience healing and restoration by the grace of our Lord, revival and freedom of those who are oppressed, and especially the arising of Christians who have the Father's heart to take role of becoming the light and salt in the world, in their respective areas of business, entertainment, and media.<br />
+                    We experience healing and restoration by the grace of our Lord, revival and freedom of those who are oppressed, and especially the arising of Christians who have the Father&#39;s heart to take role of becoming the light and salt in the world, in their respective areas of business, entertainment, and media.<br />
                     In addition, our church is to spread the flames of worship in Central Asia, the United States, Japan, C, R countries and more, with the desire to recover the Tabernacle of David within all nations.<br />
-                    The vision of Agapao Church is to deliver God's love by caring for the poor and isolated, giving their needs, and to feed, clothe, save, raise up and send God's children all over the nation until the year of the Lord's favor is proclaimed.
+                    The vision of Agapao Church is to deliver God&#39;s love by caring for the poor and isolated, giving their needs, and to feed, clothe, save, raise up and send God&#39;s children all over the nation until the year of the Lord&#39;s favor is proclaimed.
                 </p>
                 <h2>
                     아가파오는<br />
