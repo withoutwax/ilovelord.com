@@ -1,5 +1,4 @@
-import Image from "next/image";
-//import Link from 'next/link'
+import Image from "next/image";ㄴ
 import Mentor from "@/components/Mentor";
 
 const mentorList = [
