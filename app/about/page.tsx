@@ -1,4 +1,4 @@
-import Image from "next/image";ㄴ
+import Image from "next/image";
 import Mentor from "@/components/Mentor";
 
 const mentorList = [
