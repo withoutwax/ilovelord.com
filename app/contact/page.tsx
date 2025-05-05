@@ -26,7 +26,7 @@ export default function Contact() {
       </section>
 
       <section className="section-coming page-start px-8">
-        <div className="flex space-x-8">
+        <div className="flex space-x-8 max-w-screen-2xl mx-auto px-8">
           <div className="w-1/3">
               <ul>
                   <li>

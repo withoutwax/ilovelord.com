@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
+import Script from 'next/script'
 import { NaverMap as NaverMapType } from "@/types/map";
 
 type Lat = number;
@@ -31,14 +32,18 @@ export const NaverMap = () => {
     };
 
   useEffect(() => {
-    initializeMap();
-    return () => {
-      mapRef.current?.destroy();
-    };
+//    return () => {
+//      mapRef.current?.destroy();
+//    };
   }, []);
 
   return (
     <>
+      <Script src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=ruf2pjukxr"
+              strategy="afterInteractive"
+              type="text/javascript"
+              onReady={initializeMap}
+        />
       <div id={MAP_ELEMENT_ID} className="h-full"></div>
     </>
   );

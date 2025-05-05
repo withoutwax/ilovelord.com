@@ -50,7 +50,7 @@ export default function Home() {
             </Link>
         </section>
 
-        <section className="container m-contact scroll">
+        <section className="m-contact bg-white">
             <div className="contact" data-aos="fade-up">
                 <h2>Contact</h2>
                 <p>서울특별시 강남구 압구정로32길 11 캐럴라인타워 B2 아가파오<br/>
