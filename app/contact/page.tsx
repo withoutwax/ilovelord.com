@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import {NaverMap} from "@/components/Map";
+import Map from "@/components/Map";
 
 export default function Contact() {
 
@@ -51,7 +51,7 @@ export default function Contact() {
               </ul>
           </div>
           <div className="w-full md:w-2/3 aspect-square md:aspect-auto">
-            <NaverMap />
+            <Map />
           </div>
         </div>
       </section>
