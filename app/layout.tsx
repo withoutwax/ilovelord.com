@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "아가파오교회",
+  title: "AGAPAO",
   description: "아가파오교회 웹사이트에 오신것을 환영합니다.",
 };
 

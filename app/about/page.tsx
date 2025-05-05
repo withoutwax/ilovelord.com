@@ -158,24 +158,21 @@ const mentorList = [
 
 export default function About() {
   return (
-    <section className="section-gray page-start">
+    <section className="">
         <header className="bg-center bg-no-repeat bg-cover bg-fixed h-[50vh] bg-[url('/assets/img/agapao-top.jpg')] flex justify-center items-center">
-    	   <h1 className="font-bold text-white">AGAPAO MENTOR</h1>
+    	   <h1 className="font-bold text-white">AGAPAO CHURCH</h1>
         </header>
 
-        <section className="section-txt page-start">
-            <div className="container">
-                <p>주의 성령이 내게 임하셨으니 이는 가난한 자에게 복음을 전하게 하시려고<br />
-                    내게 기름을 부으시고 나를 보내사 포로된 자에게 자유를, 눈먼 자에게 다시 보게 함을 전파하며<br />
-                    눌린 자를 자유케 하고 주의 은혜의 해를 전파하게 하려 하심이라 하였더라</p>
-                <p className="tail">눅 4:18-19</p>
-            </div>
+        <section className="flex flex-col items-center space-y-4 py-28 px-8">
+            <p className="font-[300] text-[1.2rem] leading-[2.2rem] text-[#8a8a8a] text-center tracking-[-0.03rem] font-serif">주의 성령이 내게 임하셨으니 이는 가난한 자에게 복음을 전하게 하시려고<br />
+                내게 기름을 부으시고 나를 보내사 포로된 자에게 자유를, 눈먼 자에게 다시 보게 함을 전파하며<br />
+                눌린 자를 자유케 하고 주의 은혜의 해를 전파하게 하려 하심이라 하였더라</p>
+            <p className="font-extrabold text-[0.85rem] text-[#93a3a1] font-sans">눅 4:18-19</p>
         </section>
 
-        <section className="agapao-infowrap">
-            <div className="container">
+        <section className="agapao-infowrap !px-4 md:!px-8">
+            <div className="mx-auto max-w-screen-2xl px-8">
                 <h1>The Spirit of the Lord is on Me</h1>
-
                 <p>
                     할렐루야! 아가파오 홈페이지를 찾아주신 여러분을 주님의 이름으로 환영합니다.<br />
                     아가파오교회는 2012년 직원 수요 예배를 시작으로 만들어졌습니다.<br />
@@ -184,8 +181,7 @@ export default function About() {
                     또한 열방에 다윗의 장막이 회복되기를 원하는 마음으로 중앙아시아, 미국, 일본, C국,R국 등 해외에 나아가 예배의 불을 붙이는 사역을 하고 있습니다.<br />
                     아가파오교회의 비전은 가난하고 소외된 자들을 돌보고 필요한 것들을 나눔으로써 주의 사랑을 전하고, 주의 은혜의 해가 전파되는 그 날까지 주의 자녀들을 먹이고, 입히고, 살리고 세워서 온 열방에 보내는 것입니다.
                 </p>
-
-                <p className="txt-en">
+                <p className="!text-[#af9273]">
                     Hallelujah! We welcome you to the Agapao website in the name of the Lord.<br />
 
                     Agapao Church was created in 2012 starting with the employee Wednesday service. <br />
@@ -193,7 +189,6 @@ export default function About() {
                     In addition, our church is to spread the flames of worship in Central Asia, the United States, Japan, C, R countries and more, with the desire to recover the Tabernacle of David within all nations.<br />
                     The vision of Agapao Church is to deliver God's love by caring for the poor and isolated, giving their needs, and to feed, clothe, save, raise up and send God's children all over the nation until the year of the Lord's favor is proclaimed.
                 </p>
-
                 <h2>
                     아가파오는<br />
                     한국독립교회 및 선교단체연합회 소속 선교단체입니다.<br />
@@ -202,10 +197,10 @@ export default function About() {
             </div>
         </section>
 
-       <section className="section-gray page-start">
-         <div className="container mentor-wrap">
-             <h2 className="mentor-title">고문목사</h2>
-             <div className="space-y-20">
+       <section className="!px-8 bg-[#f8f8f8]">
+         <div className="w-full max-w-[1260px] px-6 mx-auto">
+             <h2 className="font-black text-center text-[1.6rem] text-[#93a3a1] p-16 !font-sans">고문목사</h2>
+             <div className="space-y-20 pb-20">
                  {mentorList.map((mentor, i) => {
                      const isEven = i % 2 === 0;
 
