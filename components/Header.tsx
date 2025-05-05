@@ -8,7 +8,7 @@ export default function Header() {
         <Link href="/" className="logo-black"><Image src="/assets/img/logo-top-black.png" alt={""} width={80} height={80}/></Link>
         <span className="border-l-2 border-black ml-4 pl-4 text-black font-bold">AGAPAO</span>
       </div>
-      <ul className="flex space-x-4 text-white">
+      <ul className="flex space-x-8 text-white">
         <li><Link href={"/about"}>About</Link></li>
         <li><Link href={"/worship"}>Worship</Link></li>
         <li><Link href={"/contact"}>Contact</Link></li>

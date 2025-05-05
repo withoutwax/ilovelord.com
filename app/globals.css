@@ -544,9 +544,9 @@ a.light:hover {
 
 
 /*.bg-section .content {position:fixed;}*/
-.main-bg01 .txt, .main-bg02 .txt {
-  color: #fff;
-}
+/*.main-bg01 .txt, .main-bg02 .txt {*/
+/*  color: #fff;*/
+/*}*/
 /*20200702수정*/
 .main-bg04 .txt {
   color: #000;
@@ -576,16 +576,16 @@ a.light:hover {
     padding: 1.5rem 0;
   }
 }
-@media (max-width: 480px) {
-  .main-bg01, .main-bg02, .main-bg03, .main-bg04 {
-  }
-  .main-section h2, .contact h2 {
-    font-size: 1.8rem;
-  }
-  .main-section p {
-    font-size: 0.9rem;
-  }
-}
+/*@media (max-width: 480px) {*/
+/*  .main-bg01, .main-bg02, .main-bg03, .main-bg04 {*/
+/*  }*/
+/*  .main-section h2, .contact h2 {*/
+/*    font-size: 1.8rem;*/
+/*  }*/
+/*  .main-section p {*/
+/*    font-size: 0.9rem;*/
+/*  }*/
+/*}*/
 
 
 .content-center {
