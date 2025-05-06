@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
         <section className="section-main">
-          	<div className="absolute inset-y-0 flex items-center">
+          	<div className="absolute inset-0 flex items-center max-w-screen-2xl mx-auto px-8">
         		<Image src="/assets/img/main-toptext.png" alt="" width={750} height={750}/>
             </div>
         </section>
